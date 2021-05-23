@@ -1,0 +1,7 @@
+[book]
+authors = ["Liu-WeiHu"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "WebAssemblyActors"
+description = "WebAssemblyActors 中文翻译"

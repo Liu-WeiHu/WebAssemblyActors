@@ -1,0 +1,3 @@
+# 章节总结
+
+本章建立在您的新知识的WebAssembly和浪费的WebAssembly文本格式，并介绍Rust的令人难以置信的强大的WebAssembly功能。我们涵盖了一些基本的生存技巧，必须通过Rust的学习曲线，谈论了独立和WASI WebAssembly模块之间的区别，并创建了一个计算器和一个使用Rust的WebAssembly目标的井字游戏。
