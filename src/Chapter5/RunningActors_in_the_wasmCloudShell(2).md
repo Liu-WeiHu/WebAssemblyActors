@@ -2,7 +2,7 @@
 
 你会立即看到如下图所示的屏幕。注意，您可能需要调整/最大化您的终端会话，因为清洗REPL在有足够空间的情况下看起来最好。
 
-![wash](../../static/image/wash_up_command_Screenshot.png)
+![wash](../static/image/wash_up_command_Screenshot.png)
 
 输入quit退出REPL。现在，我们将使用一个清单文件，这样我们就可以快速而轻松地创建一个主机来加载和配置我们想要的一切。[清单文件](https://wasmcloud.dev/reference/host-runtime/manifest/) 支持环境变量的替换，所以在你的shell中，你要设置一个环境变量，其中包含你从**wash claims inspect**的输出中获得的actor公钥:
 

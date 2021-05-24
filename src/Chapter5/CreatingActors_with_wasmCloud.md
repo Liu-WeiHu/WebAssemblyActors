@@ -4,7 +4,7 @@
 
 wasmCloud主机运行时本质上是一个代理或调度程序:它管理生态系统中两个核心组件之间的通信:参与者和功能提供者。请看下面的架构图，它展示了单个wasmCloud主机进程的内部结构:
 
-![wasmCloud Host Runtime](../../static/image/An_architectural_diagram_that_lays_out_what_the_inside_of_a_single_wasmCloud_host_process_looks_likepng.png)
+![wasmCloud Host Runtime](../static/image/An_architectural_diagram_that_lays_out_what_the_inside_of_a_single_wasmCloud_host_process_looks_likepng.png)
 
 在上面的图中，您可以看到在任何给定的主机(OS进程)中，都有许多参与者(WebAssembly模块使用代码生成的数据结构通过waPC与主机通信)和功能提供者。主机控制器管理启动、停止和监控，而消息总线促进了主机内部和外部跨网格(稍后讨论)的通信，这允许远程函数调用和远程控制接口。
 
