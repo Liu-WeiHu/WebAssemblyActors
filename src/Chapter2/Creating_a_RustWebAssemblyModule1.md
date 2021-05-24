@@ -12,7 +12,7 @@
 
 当您创建项目时，它使用了一个几乎为空的Cargo。toml文件。这是Rust的项目清单，WebAssembly的目标有一个重要的怪癖。默认情况下，Rust将生成一个操作系统本机库(即使您告诉它您想要wasm!)。要获得已编译的wasm文件，需要确保项目的库类型设置为cdylib。使用您最喜欢的编辑器，修改Cargo。Toml文件，它看起来像这样:
 
-```text
+```toml
 [package]
 name = "calc"
 version = "0.1.0"
