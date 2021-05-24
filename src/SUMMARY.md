@@ -21,7 +21,7 @@
         - [实验1.1 -创建一个计算器模块](Chapter1/Lab 1.1 _ Creating a Calculator Module.md)
     - [探索更多的WebAssembly基础知识，完成](Chapter1/Exploring More WebAssembly Basics Completed.md)
         - [数据类型](Chapter1/Data Types.md)
-        - [流程控制](Chapter1/Control Flow.md)
+        - [流程控制](Chapter1/ControlFlow.md)
         - [循环](Chapter1/Loops.md)
         - [导入和导出](Chapter1/Imports and Exports.md)
         - [使用线性存储器](Chapter1/Working with Linear Memory.md)
