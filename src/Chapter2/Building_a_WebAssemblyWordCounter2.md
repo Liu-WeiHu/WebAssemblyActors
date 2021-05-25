@@ -46,7 +46,7 @@ Finished dev [unoptimized + debuginfo] target(s) in 0.00s
 
 我们现在应该有一个名为wordcounter的文件。Wasm在target/wasm32-wasi/debug目录下。让我们看看wasmtime能否执行它。记住，我们需要告诉wasmtime我们允许模块访问哪个目录。如果没有这个权限，模块将无法读取输入文件:
 
-<font color=Blue>wasmtime --dir=/home/kevin/Code/ target/wasm32-wasi/debug/wordcounter.wasm ~/Code/tmp/LICENSE</font>
+<font color=Blue>wasmtime --dir=/home/kevin/Code/   target/wasm32-wasi/debug/wordcounter.wasm   ~/Code/tmp/LICENSE</font>
 
 ```text
 WARN wasmtime::linker > command module exporting '__data_end' is deprecated
@@ -77,6 +77,6 @@ add 2
 
 您可能看不到wasmtime发出的警告。它基本上告诉我们，Rust编译了一些东西到我们的WebAssembly模块中，这些东西目前是不赞成的。在你上这门课的时候，这个问题可能已经在Rust版本更新中解决了。
 
-好消息是，您现在知道了如何构建一个可以像普通二进制文件那样运行的应用程序，并且可以在wasmtime或wasmer等支持wasi的运行时的监督下运行它。
+好消息是，您现在知道了如何构建一个可以像普通二进制文件那样运行的应用程序，并且可以在[wasmtime](https://wasmtime.dev/) 或[wasmer](https://wasmer.io/)等支持wasi的运行时的监督下运行它。
 
 但是请注意——之所以能够以这种方式运行它，是因为您的应用程序只使用WASI支持的可用系统调用的有限子集。一旦偏离了这一点，应用程序可能会在终端提示符下正常运行，但无法编译或作为WASI模块运行。
