@@ -1,6 +1,6 @@
 # WebAssemblyActors
 
-本书是 翻译自  `https://learning.edx.org/course/course-v1:LinuxFoundationX+LFD134x+1T2021/home` ,如有侵权请告知。
+本书是 翻译自  `https://training.linuxfoundation.org/training/webassembly-actors-from-cloud-to-edge-lfd134x/` ,如有侵权请告知。
 
 pull到本地。先安装 `cargo install mdbook`
 然后 切换到项目里 执行 `mdbook serve`
